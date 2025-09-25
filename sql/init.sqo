@@ -1,0 +1,11 @@
+CREATE TABLE incidents (
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  composant VARCHAR(50),
+  article VARCHAR(50),
+  ligne VARCHAR(50),
+  machine VARCHAR(50),
+  animateur VARCHAR(50),
+  defaut1 VARCHAR(50),
+  defaut2 VARCHAR(50)
+);
